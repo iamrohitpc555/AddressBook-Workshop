@@ -173,6 +173,10 @@ body{
     display: flex;
     flex-direction: column;
     width: 30%;
+}
 
-
+error-output{
+    font-size: 12px;
+    font-style: italic;
+    font: red;
 }
