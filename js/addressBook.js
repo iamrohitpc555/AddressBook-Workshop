@@ -76,8 +76,7 @@ class addressBookData {
     //method
 
     toString() {
-        const options = { year: 'numeric', month: 'long', day: 'numeric' };
-        const empDate = !this.startDate == undefined ?"Undefined" : this.startDate.toLocaleDateString("en-US", options);
+       
         return "id : " + this.id + " Name : " + this.name + " Address : " + this.address + " City : "
             + this.city + " State : " + this.state + " Zip : " + this.zip ;
 
